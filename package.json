@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare:data": "tsx -r dotenv/config ./scripts/embedd-docs.ts",
-    "vercel-build": "npm install --legacy-peer-deps && npm run build"
+    "prepare:data": "tsx -r dotenv/config ./scripts/embedd-docs.ts"
   },
   "dependencies": {
     "@langchain/community": "^0.3.41",
